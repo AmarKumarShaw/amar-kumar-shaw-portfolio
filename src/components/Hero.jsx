@@ -39,7 +39,6 @@ const Hero = () =>{
                          initial={{x:100,opacity:0}}
                          animate={{x:0,opacity:1}}
                          transition={{duration:1,deplay:1.5}}
-                       
                          />
 
                     </div>
@@ -65,8 +64,7 @@ const Hero = () =>{
                             <motion.p 
                             variants={childVariants}
                             className="my-2 text-center lg:text-start max-w-2xl py-6 text-lg lg:text-2xl leading-relaxed tracking-tighter
-                            bg-gradient-to-r from-stone-300 to-stone-600 bg-clip-text
-                              text-transparent
+                            bg-gradient-to-r from-stone-300 to-stone-600 bg-clip-text text-transparent
                             ">
                             {HERO_CONTENT}
                             </motion.p>
