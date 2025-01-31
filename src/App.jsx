@@ -5,6 +5,7 @@ import Experience from "./components/Experience";
 import Contact from "./components/Contact";
 import Projects from "./components/Projects";
 
+
 const App = () => {
   return(
     <div className="text-3xl text-stone-300 antialiased">
@@ -21,7 +22,7 @@ const App = () => {
         <Navbar/>
         <Hero/>
         <Technologies/>
-        <Projects/>
+        {/* <Projects/> */}
         <Experience/>
         <Contact/>
         </div>

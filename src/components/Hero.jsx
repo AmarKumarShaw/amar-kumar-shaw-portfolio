@@ -77,9 +77,9 @@ const Hero = () =>{
                             download
                             className="bg-white hover:bg-black hover:border border-white hover:text-white rounded-full p-4 text-sm text-stone-800 mb-10"
                             >
-                               <div className="flex items-center">
+                               {/* <div className="flex items-center">
                                <FaDownload className="w-6 h-6 mr-2" /> <p className="text-ld">Download Resume</p>
-                               </div>
+                               </div> */}
                         </motion.a>
                         </div>
                 </motion.div>
