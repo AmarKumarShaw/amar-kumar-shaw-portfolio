@@ -70,7 +70,7 @@ const Hero = () =>{
                             </motion.p>
                             <motion.a
                             variants={childVariants}
-                            href="/Amar_Kumar_Shaw_Resume_(4_YOE).pdf"
+                            href="/Amar_Kumar_Shaw_Resume(4_YOE).pdf"
                             target="_blank"
                             rel="noopener noreffer"
                             whileHover={{ scale: 1.2 }}
